@@ -1,5 +1,6 @@
 # Chromesaur-NeuroEvolution
 Using Machine Learning to play Chromesaur, use NEAT algorithm from Carrot.js
+![image](https://user-images.githubusercontent.com/43329669/62887950-4d8f3980-bd0c-11e9-899a-ffd9dbb2e618.png)
 
 ## Incorporating Carrot.js 
 #### Initialize NEAT
