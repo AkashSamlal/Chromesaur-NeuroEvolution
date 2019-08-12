@@ -117,9 +117,9 @@ function draw() {
     if (counter % 55 == 0) {
      clouds.push(new Cloud());
     }
-    if (counter % 30 == 0) {
+    if (counter % 127 == 0) {
      grounds.push(new Ground());
-    }
+    }   
     counter++;
   }
   // What is highest score of the current population

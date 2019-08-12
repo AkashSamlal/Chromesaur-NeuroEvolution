@@ -3,14 +3,15 @@ class Ground {
       this.groundImage = new Image(); 
       this.groundImage.src = "img/ground.png"; 
       this.bottom = 65;
-      this.x = width;
-      this.w = 1000;
+      this.x = 0;
+      this.w = 2000;
       this.speed = 10;
     }
     // Draw the ground
     show() {
-      ctx.drawImage(this.groundImage, 0, height - 50, this.w, this.bottom); 
+      ctx.drawImage(this.groundImage, this.x, height - 50, this.w, 28); 
     }  
+     
     // Update the ground
     update() {
       this.x -= this.speed;

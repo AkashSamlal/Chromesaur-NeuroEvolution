@@ -1,7 +1,7 @@
 let Dino = function(brain) {
   // position and size of dino
   this.x = 64;
-  this.y = height - 60 ;
+  this.y = height - 75 ;
   this.r = 60;
   this.brain = brain;
   this.dinoImage = new Image();
@@ -51,7 +51,7 @@ let Dino = function(brain) {
   }
   // Jump up
   this.up = function() {
-    if(this.y == height - 60) {
+    if(this.y == height - 75) {
     this.velocity = -20;
      }
   }
@@ -63,7 +63,7 @@ let Dino = function(brain) {
   this.update = function(){
     this.y += this.velocity; 
     this.velocity += this.gravity;  
-    this.y = constrain(this.y, 0, height - 60);
+    this.y = constrain(this.y, 0, height - 75);
     // Every frame it is alive increases the score
     this.score++;
   }

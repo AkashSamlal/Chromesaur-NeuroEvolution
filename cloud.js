@@ -10,7 +10,7 @@ class Cloud {
       this.randomHeight = rHeight;
       this.x = width;
       this.w = 90;
-      this.speed = 10;
+      this.speed = 5;
   }
     // Draw the cloud
     show() {
